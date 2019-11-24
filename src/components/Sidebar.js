@@ -1,10 +1,15 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Filters} from "../components";
+import {Search} from "../components";
 
 function Sidebar(props) {
     return (
         <div>
-            Sidebar
+            <Search onSearch={props.onSearch} />
+            <Filters
+                onFilterPets={props.onFilterPets}
+                activeFilter={props.activeFilter}
+            />
         </div>
     );
 }

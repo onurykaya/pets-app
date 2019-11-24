@@ -5,7 +5,7 @@ function Pet(props) {
     const {name, image, age, description, breed} = props;
     return (
         <div className="col-lg-6 col-md-4 mb-4">
-            <div className="card h-100" style={{marginTop: 15}}>
+            <div className="card h-100">
                 <a href="#"><img className="card-img-top" src={image} alt="" style={{height: "292px"}}/></a>
                 <div className="card-body">
                     <h4 className="card-title">

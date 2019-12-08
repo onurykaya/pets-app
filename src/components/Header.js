@@ -6,7 +6,7 @@ function Header() {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container">
-                    <a className="navbar-brand" href="#">Pets</a>
+                    <Link to={`/`}><a className="navbar-brand" href="/">Pets</a></Link>
                     <div className="collapse navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
@@ -15,6 +15,7 @@ function Header() {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/favoriler">Favoriler</Link>
                             </li>
+                            
                         </ul>
                     </div>
                 </div>

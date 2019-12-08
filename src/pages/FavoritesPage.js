@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react'
 
-function FavoritesPage() {
-    return (
-        <div>
-            FavoritesPage
-        </div>
-    );
+
+
+
+export default class FavoritesPage extends Component {
+    
+    render() {
+        return (
+            <div>
+              
+            </div>
+        )
+    }
 }
 
-export default FavoritesPage;
+

@@ -3,13 +3,11 @@ import {Sidebar, PetList} from "../components";
 
 
 class HomePage extends React.Component{
-    constructor(props){
-        super(props);
-        this.state = {
+    
+        state = {
             activeFilter: "",
             searchValue: ""
-        }
-    }
+         }
 
     componentDidMount() {
         document.title = "Home Page";
